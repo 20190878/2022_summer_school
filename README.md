@@ -192,7 +192,7 @@ __언더바(underscore)__ 를 사용
 
 // examle 2
 Inline-style: 
-![alt text](https://github.com/20190878/2022_summer_school/images/안동대학교.jpg "Logo Title Text 1")
+![alt text](https://github.com/20190878/2022_summer_school/images/안동대학교.jpg "안동대학교.jpg")
 
 Reference-style: 
 ![alt text][logo]
