@@ -88,7 +88,29 @@ class Car {
 </pre>
 
 
+## 4.3 " ' ' ' " 이용방법
+```
+import React from 'react';
+function MyComponent(props) {
+if (props.isBar) {
+return <div>Bar</div>;
+}
+return <div>Foo</div>;
+}
+export default MyComponent;
 
+
+## 4.4  코드블럭 시작점(" ''' ")에 사용하는 언어를 선언하여 문법 강조 가능
+``` js
+import React from 'react';
+function MyComponent(props) {
+if (props.isBar) {
+return <div>Bar</div>;
+}
+return <div>Foo</div>;
+}
+export default MyComponent;
+```
 
 # 2022_summer_school
 ##git gub 원격지 저장 활용 시험
