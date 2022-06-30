@@ -186,14 +186,11 @@ __언더바(underscore)__ 를 사용
 -----------
 
 ![alt text](image url "image Title")
-
 // examle 1
 ![Street](TestImage.jpg "Oxford")
-
 // examle 2
 Inline-style: 
-![alt text](https://github.com/20190878/2022_summer_school/images/안동대학교.jpg "안동대학교.jpg")
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 Reference-style: 
 ![alt text][logo]
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
