@@ -134,9 +134,7 @@ class Car {
 
 6. link
 -------
-[link keyword][id]
-[id]: URL "Optional Title here"
-
+* 참조링크
 
 //examle
 
@@ -145,7 +143,22 @@ Link: [google][googlelink]
 [googlelink]: https://google.co.uk "Let's Go Google"
 
 
+* 외부 링크
 
+[Title](link)
+
+// examle
+
+[Google](https://google.co.uk "Let's Go Google“)
+
+
+* 자동링크
+
+// examle
+
+Google Homepage: https://google.co.uk 
+
+Naver Homepage: <https://naver.com>
 
 
 
