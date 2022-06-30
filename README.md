@@ -90,30 +90,37 @@ class Car {
 
 
 ## 4.3 " ' ' ' " 이용방법
-```
-import React from 'react';
-function MyComponent(props) {
-if (props.isBar) {
-return <div>Bar</div>;
-}
-return <div>Foo</div>;
-}
-export default MyComponent;
-
-
------------------------------------------------------------------------------
+	```
+	import React from 'react';
 	
+	function MyComponent(props) {
+	  if (props.isBar) {
+	    return <div>Bar</div>;
+	  }
+
+	    return <div>Foo</div>;
+	}
+
+	export default MyComponent;
+	```
+
+
+
 ## 4.4  코드블럭 시작점(" ''' ")에 사용하는 언어를 선언하여 문법 강조 가능
-``` js
-import React from 'react';
-function MyComponent(props) {
-if (props.isBar) {
-return <div>Bar</div>;
-}
-return <div>Foo</div>;
-}
-export default MyComponent;
-```
+	
+	``` js
+	import React from 'react';
+
+	function MyComponent(props) {
+	  if (props.isBar) {
+	    return <div>Bar</div>;
+	}
+	
+	   return <div>Foo</div>;
+	}
+
+	export default MyComponent;
+	```
 
 
 5. Page 나누기
@@ -123,6 +130,22 @@ export default MyComponent;
 *****
 - - -
 ---------------
+
+
+6. link
+-------
+[link keyword][id]
+[id]: URL "Optional Title here"
+
+
+//examle
+
+Link: [google][googlelink]
+
+[googlelink]: https://google.co.uk "Let's Go Google"
+
+
+
 
 
 
