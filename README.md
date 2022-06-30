@@ -63,6 +63,29 @@ list
 
 
 
+code 표현
+-----------
+
+## 4.2 { } 들여쓰기 이용방법
+<pre>
+<code>
+class Car {
+	private String modelName;
+	private int modelYear;
+	private String color;	
+	private int maxSpeed;
+	private int currentSpeed;
+
+	Car(String modelName, int modelYear, String color, int maxSpeed) {
+		this.modelName = modelName;
+		this.modelYear = modelYear;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
+		this.currentSpeed = 0;
+	}
+}
+</code>
+</pre>
 
 
 
