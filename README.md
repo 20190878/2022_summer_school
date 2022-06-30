@@ -193,11 +193,14 @@ __언더바(underscore)__ 를 사용
 
 // examle 2
 
-Inline-style: 
+
 ![alt text](https://github.com/20190878/2022_summer_school/blob/main/%EC%95%88%EB%8F%99%EB%8C%80%ED%95%99%EA%B5%90.jpg)
+
+<img src="안동대학교.jpg" width=450px" height="300px" alt (https://github.com/20190878/2022_summer_school/blob/main/%EC%95%88%EB%8F%99%EB%8C%80%ED%95%99%EA%B5%90.jpg)
 
 Reference-style: 
 ![alt text][logo]
+
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 
@@ -217,6 +220,28 @@ You can also use words, to fit your writing style more closely[^note].
 [^note]:
   Named footnotes will still render with numbers instead of the text but allow easier identification and linking. 
   This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+
+
+10. Table
+----------
+
+// example 1
+
+| 값 | 의미 | 기본값 |
+|---|:---:|---:|
+| `static` | 유형(기준) 없음 / 배치 불가능 | `static` |
+| `relative` | 요소 자신을 기준으로 배치 | |
+| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 | |
+| `fixed` | 브라우저 창을 기준으로 배치 | |
+
+
+// example 2
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 
 
