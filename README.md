@@ -171,7 +171,7 @@ Naver Homepage: <https://naver.com>
 _언더바(underscore)_ 를 사용
 
 두껍게는 
-** 별표(asterisks)** 혹은 
+** 별표(asterisks) ** 혹은 
 __언더바(underscore)__ 를 사용
 
 **_이텔릭체_와 두껍게** 를 같이 사용할 수 있음
